@@ -21,4 +21,8 @@ fun main(args: Array<String>) {
 //    input20.right = input7
 //
 //    solution.maxDepth(input)
+
+    //402. Remove K Digits
+//    val solution = RemoveKDigits.Solution()
+//    print(solution.removeKdigits("1173", 2))
 }
