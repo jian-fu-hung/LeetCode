@@ -25,4 +25,8 @@ fun main(args: Array<String>) {
     //402. Remove K Digits
 //    val solution = RemoveKDigits.Solution()
 //    print(solution.removeKdigits("1173", 2))
+
+    //39. Combination Sum
+//    val solution = CombinationSum.Solution()
+//    print((solution.combinationSum(intArrayOf(2,3,6,7), 7)))
 }
