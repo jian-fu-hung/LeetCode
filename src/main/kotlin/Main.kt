@@ -1,4 +1,3 @@
-import MaximumDepthofBinaryTree.Solution
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -29,4 +28,23 @@ fun main(args: Array<String>) {
     //39. Combination Sum
 //    val solution = CombinationSum.Solution()
 //    print((solution.combinationSum(intArrayOf(2,3,6,7), 7)))
+
+    //6012. Count Integers With Even Digit Sum
+    val solution = CountIntegersWithEvenDigitSum.Solution()
+    print(solution.countEven(896))
+
+    //6013. Merge Nodes in Between Zeros
+//    val solution = MergeNodesInBetweenZeros.Solution()
+//    var input = MergeNodesInBetweenZeros.ListNode(0)
+//    var input1 = MergeNodesInBetweenZeros.ListNode(1)
+//    var input2 = MergeNodesInBetweenZeros.ListNode(3)
+//    var input3 = MergeNodesInBetweenZeros.ListNode(0)
+//    var input4 = MergeNodesInBetweenZeros.ListNode(7)
+//    var inputFinal = MergeNodesInBetweenZeros.ListNode(0)
+//    input.next = input1
+//    input1.next = input2
+//    input2.next = input3
+//    input3.next = input4
+//    input4.next = inputFinal
+//    print(solution.mergeNodes(input).toString())
 }
