@@ -30,8 +30,8 @@ fun main(args: Array<String>) {
 //    print((solution.combinationSum(intArrayOf(2,3,6,7), 7)))
 
     //6012. Count Integers With Even Digit Sum
-    val solution = CountIntegersWithEvenDigitSum.Solution()
-    print(solution.countEven(896))
+//    val solution = CountIntegersWithEvenDigitSum.Solution()
+//    print(solution.countEven(896))
 
     //6013. Merge Nodes in Between Zeros
 //    val solution = MergeNodesInBetweenZeros.Solution()
@@ -47,4 +47,8 @@ fun main(args: Array<String>) {
 //    input3.next = input4
 //    input4.next = inputFinal
 //    print(solution.mergeNodes(input).toString())
+
+    //171. Excel Sheet Column Number
+//    val solution = ExcelSheetColumnNumber.Solution()
+//    print( solution.titleToNumber("AB"))
 }
