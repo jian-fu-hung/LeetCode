@@ -1,3 +1,4 @@
+import SortList.Solution
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -51,4 +52,20 @@ fun main(args: Array<String>) {
     //171. Excel Sheet Column Number
 //    val solution = ExcelSheetColumnNumber.Solution()
 //    print( solution.titleToNumber("AB"))
+
+    //148. Sort List
+//    val solution = SortList.Solution()
+//    val input1 = Solution.ListNode(4)
+//    val input2 = Solution.ListNode(2)
+//    val input3 = Solution.ListNode(1)
+//    val input4 = Solution.ListNode(3)
+//    input1.next = input2
+//    input2.next = input3
+//    input3.next = input4
+//    print(solution.sortList(input1))
+
+    //338. Counting Bits
+//    val solution = CountingBits.Solution()
+//    print(solution.countBits(5).toString())
+
 }
