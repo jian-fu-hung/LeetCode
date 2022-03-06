@@ -68,4 +68,17 @@ fun main(args: Array<String>) {
 //    val solution = CountingBits.Solution()
 //    print(solution.countBits(5).toString())
 
+//    val solution = MostFrequentNumberFollowingKeyInanArray.Solution()
+//    print(solution.mostFrequent(intArrayOf(1,100,2,1,100), 1))
+
+//    val solution = SortTheJumbledNumbers.Solution()
+//    print(solution.sortJumbled(intArrayOf(8,9,4,0,2,1,3,5,7,6), intArrayOf(77,77,38)))
+
+//    val solution = CellsInARangeOnAnExcelSheet.Solution()
+//    print(solution.cellsInRange("A1:C1"))
+
+    val solution = AppendKIntegersWithMinimalSum.Solution()
+    print(solution.minimalKSum(intArrayOf(93,44,49,45,93,52,6,7,88,70,86,15,38,86,86,95,8,62,13,84,26,16,33,85,7,62,55,50,77,10,76,10,35,67,19,12,24,39,76,37), 17))
+    println(solution.minimalKSum(intArrayOf(1,3,3,4,6),5))
+    print(solution.minimalKSum(intArrayOf(5,6), 6))
 }
