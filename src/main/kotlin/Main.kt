@@ -77,8 +77,26 @@ fun main(args: Array<String>) {
 //    val solution = CellsInARangeOnAnExcelSheet.Solution()
 //    print(solution.cellsInRange("A1:C1"))
 
-    val solution = AppendKIntegersWithMinimalSum.Solution()
-    print(solution.minimalKSum(intArrayOf(93,44,49,45,93,52,6,7,88,70,86,15,38,86,86,95,8,62,13,84,26,16,33,85,7,62,55,50,77,10,76,10,35,67,19,12,24,39,76,37), 17))
-    println(solution.minimalKSum(intArrayOf(1,3,3,4,6),5))
-    print(solution.minimalKSum(intArrayOf(5,6), 6))
+//    val solution = AppendKIntegersWithMinimalSum.Solution()
+//    print(solution.minimalKSum(intArrayOf(93,44,49,45,93,52,6,7,88,70,86,15,38,86,86,95,8,62,13,84,26,16,33,85,7,62,55,50,77,10,76,10,35,67,19,12,24,39,76,37), 17))
+//    println(solution.minimalKSum(intArrayOf(1,3,3,4,6),5))
+//    print(solution.minimalKSum(intArrayOf(5,6), 6))
+
+//    val solution = AddTwoNumbers.Solution()
+//    val l1 = AddTwoNumbers.Solution.ListNode(2).apply {
+//        next = AddTwoNumbers.Solution.ListNode(3).apply {
+//            next = AddTwoNumbers.Solution.ListNode(4)
+//        }
+//    }
+//
+//    val l2 = AddTwoNumbers.Solution.ListNode(5).apply {
+//        next = AddTwoNumbers.Solution.ListNode(6).apply {
+//            next = AddTwoNumbers.Solution.ListNode(4)
+//        }
+//    }
+//    solution.addTwoNumbers(l1, l2)
+
+    //856. Score of Parentheses
+    val solution = ScoreOfParentheses.Solution()
+    solution.scoreOfParentheses("(56)()")
 }
