@@ -97,6 +97,17 @@ fun main(args: Array<String>) {
 //    solution.addTwoNumbers(l1, l2)
 
     //856. Score of Parentheses
-    val solution = ScoreOfParentheses.Solution()
-    solution.scoreOfParentheses("(56)()")
+//    val solution = ScoreOfParentheses.Solution()
+//    solution.scoreOfParentheses("(56)()")
+
+    //6020. Divide Array Into Equal Pairs
+//    val solution = DivideArrayIntoEqualPairs.Solution()
+//    print(solution.divideArray(intArrayOf(3,2,3,2,2,2,2)))
+//    print(solution.divideArray(intArrayOf(1,2,3,4)))
+
+    //6027. Count Hills and Valleys in an Array
+    val solution = CountHillsAndValleysInAnArray.Solution()
+//    println(solution.countHillValley(intArrayOf(2,4,1,1,6,5)))
+//    println(solution.countHillValley(intArrayOf(6,6,5,5,4,1)))
+    println(solution.countHillValley(intArrayOf(57,57,57,57,57,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,85,85,85,86,86,86)))
 }
