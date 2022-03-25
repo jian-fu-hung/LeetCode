@@ -106,8 +106,12 @@ fun main(args: Array<String>) {
 //    print(solution.divideArray(intArrayOf(1,2,3,4)))
 
     //6027. Count Hills and Valleys in an Array
-    val solution = CountHillsAndValleysInAnArray.Solution()
+//    val solution = CountHillsAndValleysInAnArray.Solution()
 //    println(solution.countHillValley(intArrayOf(2,4,1,1,6,5)))
 //    println(solution.countHillValley(intArrayOf(6,6,5,5,4,1)))
-    println(solution.countHillValley(intArrayOf(57,57,57,57,57,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,85,85,85,86,86,86)))
+//    println(solution.countHillValley(intArrayOf(57,57,57,57,57,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,85,85,85,86,86,86)))
+
+    //1029. Two City Scheduling
+    val solution = TwoCityScheduling.Solution()
+    solution.twoCitySchedCost(arrayOf(intArrayOf(10,20), intArrayOf(30,200), intArrayOf(400,50), intArrayOf(30,20)))
 }
