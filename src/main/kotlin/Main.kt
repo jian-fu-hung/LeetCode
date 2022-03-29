@@ -112,6 +112,16 @@ fun main(args: Array<String>) {
 //    println(solution.countHillValley(intArrayOf(57,57,57,57,57,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,90,85,85,85,86,86,86)))
 
     //1029. Two City Scheduling
-    val solution = TwoCityScheduling.Solution()
-    solution.twoCitySchedCost(arrayOf(intArrayOf(10,20), intArrayOf(30,200), intArrayOf(400,50), intArrayOf(30,20)))
+//    val solution = TwoCityScheduling.Solution()
+//    solution.twoCitySchedCost(arrayOf(intArrayOf(10,20), intArrayOf(30,200), intArrayOf(400,50), intArrayOf(30,20)))
+
+    //5268. Find the Difference of Two Arrays
+//    val solution = FindTheDifferenceOfTwoArrays.Solution()
+//    println(solution.findDifference(intArrayOf(1,2,3), intArrayOf(2,4,6)).toString())
+//    println(solution.findDifference(intArrayOf(1,2,3,3), intArrayOf(1,1,2,2)).toString())
+
+    //5236. Minimum Deletions to Make Array Beautiful
+//    val solution = MinimumDeletionsToMakeArrayBeautiful.Solution()
+//    println(solution.minDeletion(intArrayOf(1,1,2,3,5)))
+//    println(solution.minDeletion(intArrayOf(1,1,2,2,3,3)))
 }
