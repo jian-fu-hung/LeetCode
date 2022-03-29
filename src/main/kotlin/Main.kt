@@ -124,4 +124,9 @@ fun main(args: Array<String>) {
 //    val solution = MinimumDeletionsToMakeArrayBeautiful.Solution()
 //    println(solution.minDeletion(intArrayOf(1,1,2,3,5)))
 //    println(solution.minDeletion(intArrayOf(1,1,2,2,3,3)))
+
+    //287. Find the Duplicate Number
+    val solution = FindTheDuplicateNumber.Solution()
+    println(solution.findDuplicate(intArrayOf(1, 3, 4, 2, 2)))
+    println(solution.findDuplicate(intArrayOf(3,1,3,4,2)))
 }
