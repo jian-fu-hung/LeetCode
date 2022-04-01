@@ -130,6 +130,9 @@ fun main(args: Array<String>) {
 //    println(solution.findDuplicate(intArrayOf(1, 3, 4, 2, 2)))
 //    println(solution.findDuplicate(intArrayOf(3,1,3,4,2)))
 
-    val solution = SearchA2DMatrix.Solution()
-    solution.runTest()
+//    val solution = SearchA2DMatrix.Solution()
+//    solution.runTest()
+
+    //344. Reverse String
+    ReverseString.Solution().runTest()
 }
